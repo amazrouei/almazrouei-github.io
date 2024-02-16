@@ -1,16 +1,16 @@
-/* Reset CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
+
 body {
     font-family: "Lato", sans-serif;
 }
 
-/* Navbar */
+
 .w3-top {
     position: sticky;
     top: 0;
@@ -37,12 +37,12 @@ body {
     background-color: #555;
 }
 
-/* Slideshow */
+
 .mySlides {
     display: none;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 600px) {
-    /* Define styles for smaller screens */
+    
 }
