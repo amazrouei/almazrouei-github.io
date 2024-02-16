@@ -1,4 +1,4 @@
-// Automatic Slideshow - change image every 4 seconds
+// change image every 2 seconds
 var myIndex = 0;
 carousel();
 
@@ -11,10 +11,10 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) { myIndex = 1; }
     x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 4000);
+    setTimeout(carousel, 2000);
 }
 
-// Toggle the menu on small screens when clicking on the menu button
+
 function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
@@ -24,7 +24,7 @@ function myFunction() {
     }
 }
 
-// Close the modal when the user clicks anywhere outside of it
+
 var modal = document.getElementById('ticketModal');
 window.onclick = function(event) {
     if (event.target == modal) {
